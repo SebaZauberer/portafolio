@@ -1,0 +1,625 @@
+@import url('fonts.css');
+/*
+Theme Name: Tema Displey:Seba;
+Theme URI: http://ejemplo.com/temas-wp
+Author: Sebastian Olate H.
+Author URI: https://github.com/SebaZauberer
+Description: Este es un tema creado para el portafolio de Sebastián Olate H.
+Version: 2.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: portafolio, portfolio, displey seba
+Text Domain: ds
+*/
+.ancho-content {
+  max-width: 960px;
+}
+.bg-norepeat {
+  background-repeat: no-repeat;
+}
+.bg-cover {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.w-100 {
+  width: 100%;
+}
+.h-100 {
+  height: 100%;
+}
+.centrar {
+  margin: 0 auto;
+}
+.clear {
+  clear: both;
+}
+.border-box {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+*:focus {
+  outline: none;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+/*NAV*/
+/*HEADER*/
+#header-site {
+  background-color: #11999e;
+  -webkit-transform: scale(1) rotate(0deg) translateX(0px) translateY(-50px) skewX(0deg) skewY(-3deg);
+  -ms-transform: scale(1) rotate(0deg) translateX(0px) translateY(-50px) skewX(0deg) skewY(-3deg);
+  transform: scale(1) rotate(0deg) translateX(0px) translateY(-50px) skewX(0deg) skewY(-3deg);
+  padding-top: 70px;
+}
+#header-site > .container {
+  height: 110px;
+}
+#header-site .row {
+  -webkit-transform: scale(1) rotate(0deg) translateX(0px) translateY(0px) skewX(0deg) skewY(3deg);
+  -ms-transform: scale(1) rotate(0deg) translateX(0px) translateY(0px) skewX(0deg) skewY(3deg);
+  transform: scale(1) rotate(0deg) translateX(0px) translateY(0px) skewX(0deg) skewY(3deg);
+}
+#header-site nav {
+  text-align: right;
+}
+#header-site nav li {
+  list-style-type: none;
+  display: inline-block;
+  margin: 20px 28px;
+}
+#header-site nav li a {
+  font-family: 'bebas_neue_regularregular';
+  color: #ffffff;
+  font-size: 30px;
+  font-size: 1.875em;
+  padding: 8px 13px;
+  border: #ffffff 2px solid;
+  -webkit-transition: all 300ms ease-in;
+  transition: all 200ms ease-in;
+}
+#header-site nav li a:hover {
+  box-shadow: 220px 0 #fff inset;
+  color: #11999e;
+  text-decoration: none;
+}
+#header-site .titulo-seccion {
+  background-color: #12d4bc;
+  text-align: center;
+}
+#header-site .titulo-seccion h2 {
+  font-size: 50px;
+  font-size: 3.125em;
+  line-height: 2;
+  color: #ffffff;
+  font-family: 'source_code_proregular';
+}
+#header-home {
+  position: relative;
+  height: 650px;
+  background-image: url(../img/compu-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top center;
+  padding-top: 200px;
+  color: #ffffff;
+  -webkit-transform: scale(1) rotate(0deg) translateX(0px) translateY(-65px) skewX(0deg) skewY(-3deg);
+  -ms-transform: scale(1) rotate(0deg) translateX(0px) translateY(-65px) skewX(0deg) skewY(-3deg);
+  transform: scale(1) rotate(0deg) translateX(0px) translateY(-65px) skewX(0deg) skewY(-3deg);
+}
+#header-home .container {
+  -webkit-transform: scale(1) rotate(0deg) translateX(0px) translateY(0px) skewX(0deg) skewY(3deg);
+  -ms-transform: scale(1) rotate(0deg) translateX(0px) translateY(0px) skewX(0deg) skewY(3deg);
+  transform: scale(1) rotate(0deg) translateX(0px) translateY(0px) skewX(0deg) skewY(3deg);
+  text-align: center;
+}
+#header-home h1 {
+  font-size: 35px;
+  font-size: 2.1875em;
+  font-family: 'rubikbold';
+}
+#header-home h1 span {
+  font-family: 'rubiklight';
+}
+/*QUIEN-SOY*/
+#quien-soy {
+  background-color: #11999e;
+  margin-bottom: -18px;
+  -webkit-transform: scale(1) rotate(0deg) translateX(0px) translateY(51px) skewX(0deg) skewY(-3deg);
+  -ms-transform: scale(1) rotate(0deg) translateX(0px) translateY(51px) skewX(0deg) skewY(-3deg);
+  transform: scale(1) rotate(0deg) translateX(0px) translateY(51px) skewX(0deg) skewY(-3deg);
+}
+#quien-soy .caja-soy-foto {
+  height: 450px;
+  background-image: url(../img/seba-bg6.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#quien-soy .caja-soy-descripcion {
+  background-color: #11999e;
+  color: #ffffff;
+  height: 450px;
+  text-align: center;
+  padding-top: 50px;
+}
+#quien-soy .caja-soy-descripcion h2,
+#quien-soy .caja-soy-descripcion p,
+#quien-soy .caja-soy-descripcion a {
+  -webkit-transform: scale(1) rotate(0deg) translateX(0px) translateY(0px) skewX(0deg) skewY(3deg);
+  -ms-transform: scale(1) rotate(0deg) translateX(0px) translateY(0px) skewX(0deg) skewY(3deg);
+  transform: scale(1) rotate(0deg) translateX(0px) translateY(0px) skewX(0deg) skewY(3deg);
+}
+#quien-soy .caja-soy-descripcion h2 {
+  font-family: 'bebas_neuebold';
+  font-size: 62px;
+  font-size: 3.875em;
+  margin: 0;
+}
+#quien-soy .caja-soy-descripcion p {
+  font-size: 20px;
+  font-size: 1.25em;
+  font-family: 'source_code_proregular';
+  padding: 0 45px;
+  max-width: 467px;
+  margin: 30px auto;
+}
+#quien-soy .caja-soy-descripcion a {
+  text-transform: uppercase;
+  color: #ffffff;
+  display: table;
+  margin: 30px auto;
+  padding: 15px;
+  border: 3px solid #ffffff;
+  font-size: 18px;
+  font-size: 1.125em;
+  text-decoration: none;
+  letter-spacing: 4px;
+  box-shadow: 0px 0 #fff inset;
+  -webkit-transition: all 300ms ease-in;
+  transition: all 300ms ease-in;
+}
+#quien-soy .caja-soy-descripcion a:hover {
+  box-shadow: 220px 0 #fff inset;
+  color: #11999e;
+  text-decoration: none;
+}
+#quien-soy .caja-soy-responsive {
+  background-color: #12d4bc;
+  color: #ffffff;
+  height: 450px;
+  text-align: center;
+  padding-top: 50px;
+}
+#quien-soy .caja-soy-responsive h3,
+#quien-soy .caja-soy-responsive .row {
+  -webkit-transform: scale(1) rotate(0deg) translateX(0px) translateY(0px) skewX(0deg) skewY(3deg);
+  -ms-transform: scale(1) rotate(0deg) translateX(0px) translateY(0px) skewX(0deg) skewY(3deg);
+  transform: scale(1) rotate(0deg) translateX(0px) translateY(0px) skewX(0deg) skewY(3deg);
+}
+#quien-soy .caja-soy-responsive h3 {
+  font-family: 'bebas_neuelight';
+  font-size: 62px;
+  font-size: 3.875em;
+}
+#quien-soy .caja-soy-responsive i {
+  font-size: 85px;
+  font-size: 5.3125em;
+  line-height: 1.5;
+}
+#slide-trabajos h2 {
+  color: #40514e;
+  font-size: 48px;
+  font-size: 3em;
+  font-family: 'source_code_proregular';
+  margin-bottom: 20px;
+}
+#slide-trabajos .bxslider {
+  text-align: center;
+}
+#slide-trabajos .bxslider figure {
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+#slide-trabajos .bxslider figure img {
+  margin: 0 auto;
+  -webkit-transform: scale(1) rotate(0deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+  -ms-transform: scale(1) rotate(0deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+  transform: scale(1) rotate(0deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+  -webkit-transition: all 2000ms ease-in;
+  transition: all 2000ms ease;
+}
+#slide-trabajos .bxslider figure:hover img {
+  -webkit-transform: scale(1.5) rotate(0deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+  -ms-transform: scale(1.5) rotate(0deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+  transform: scale(1.5) rotate(0deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+}
+#slide-trabajos .bxslider figure figcaption {
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+#slide-trabajos .bxslider figure figcaption:hover {
+  opacity: 1;
+}
+#slide-trabajos .bxslider figure figcaption p {
+  width: 100%;
+  background-color: #11999e;
+  font-size: 35px;
+  font-size: 2.1875em;
+  font-family: 'bebas_neue_regularregular';
+  line-height: 2;
+  margin: 0;
+  color: #ffffff;
+  position: absolute;
+  bottom: 0;
+}
+#slide-trabajos .bxslider figure figcaption span {
+  font-size: 110px;
+  font-size: 6.875em;
+  line-height: 4;
+  color: #ffffff;
+}
+.boton {
+  display: block;
+  clear: both;
+  background-color: #ffffff;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.boton a {
+  box-shadow: 0 0 #11999e inset;
+  margin: 0 auto;
+  display: table;
+  font-size: 24px;
+  font-size: 1.5em;
+  font-weight: 700;
+  color: #555;
+  letter-spacing: 4px;
+  font-family: 'bebas_neue_regularregular';
+  padding: 20px 38px;
+  text-indent: 4px;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+  border: 3px solid #11999e;
+}
+.boton a:hover {
+  box-shadow: 1000px 0 #11999e inset, -1000px 0 #11999e inset;
+  color: #ffffff;
+  text-decoration: none;
+}
+/*MI FOOTER*/
+footer {
+  overflow: hidden;
+  width: 100%;
+}
+footer #main-footer {
+  margin-bottom: -85px;
+  height: 650px;
+  background-image: url(../img/stardust.png);
+  padding-top: 50px;
+  -webkit-transform: scale(1) rotate(0deg) translateX(0px) translateY(50px) skewX(0deg) skewY(-3deg);
+  -ms-transform: scale(1) rotate(0deg) translateX(0px) translateY(50px) skewX(0deg) skewY(-3deg);
+  transform: scale(1) rotate(0deg) translateX(0px) translateY(50px) skewX(0deg) skewY(-3deg);
+}
+footer #main-footer .row {
+  -webkit-transform: scale(1) rotate(0deg) translateX(0px) translateY(0px) skewX(0deg) skewY(3deg);
+  -ms-transform: scale(1) rotate(0deg) translateX(0px) translateY(0px) skewX(0deg) skewY(3deg);
+  transform: scale(1) rotate(0deg) translateX(0px) translateY(0px) skewX(0deg) skewY(3deg);
+}
+footer #main-footer h3 {
+  color: #ffffff;
+  font-size: 48px;
+  font-size: 3em;
+  font-family: 'source_code_proregular';
+  margin-bottom: 20px;
+}
+footer #main-footer ul {
+  border-left: 2px solid #11999e;
+  padding: 0 0 0 25px;
+}
+footer #main-footer ul li {
+  list-style-type: none;
+  padding: 15px 0;
+}
+footer #main-footer ul li a {
+  color: #ffffff;
+  -webkit-transition: all 200ms ease-out;
+  transition: all 200ms ease-out;
+}
+footer #main-footer ul li a:hover {
+  color: #12d4bc;
+  text-decoration: none;
+}
+footer #main-footer ul li a i {
+  font-size: 50px;
+  font-size: 3.125em;
+  margin-right: 10px;
+}
+footer #main-footer ul li a span {
+  font-size: 28px;
+  font-size: 1.75em;
+  font-family: 'bebas_neuelight';
+  vertical-align: text-bottom;
+}
+footer #main-footer .form-contacto {
+  width: 70%;
+}
+footer #main-footer .form-contacto p {
+  color: #ffffff;
+  font-family: 'source_code_proregular';
+}
+footer #main-footer .form-contacto input[type="text"],
+footer #main-footer .form-contacto input[type="email"],
+footer #main-footer .form-contacto input[type="password"],
+footer #main-footer .form-contacto input[type="tel"],
+footer #main-footer .form-contacto input[type="url"],
+footer #main-footer .form-contacto input[type="date"],
+footer #main-footer .form-contacto input[type="number"],
+footer #main-footer .form-contacto input[type="search"],
+footer #main-footer .form-contacto textarea,
+footer #main-footer .form-contacto select {
+  width: 100%;
+  border: none;
+  border-bottom: solid 2px #12d4bc;
+  background-color: transparent;
+  padding: 5px 10px;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #ffffff;
+  margin-bottom: 5px;
+  -webkit-transition: all 200ms ease-out;
+  transition: all 200ms ease-out;
+}
+footer #main-footer .form-contacto input[type="text"]:focus,
+footer #main-footer .form-contacto input[type="email"]:focus,
+footer #main-footer .form-contacto input[type="password"]:focus,
+footer #main-footer .form-contacto input[type="tel"]:focus,
+footer #main-footer .form-contacto input[type="url"]:focus,
+footer #main-footer .form-contacto input[type="date"]:focus,
+footer #main-footer .form-contacto input[type="number"]:focus,
+footer #main-footer .form-contacto input[type="search"]:focus,
+footer #main-footer .form-contacto textarea:focus,
+footer #main-footer .form-contacto select:focus {
+  border: solid 2px #11999e;
+  background-color: #ffffff;
+  color: #666666;
+}
+footer #main-footer .form-contacto textarea {
+  resize: vertical;
+  border: solid 2px #12d4bc;
+}
+footer #main-footer .form-contacto input[type="submit"] {
+  color: #ffffff;
+  font-weight: 700;
+  padding: 5px 20px 7px 20px;
+  border: 0;
+  -webkit-transition: all 300ms ease-out;
+  transition: all 300ms ease-out;
+  background: #11999e;
+  float: right;
+}
+footer #main-footer .form-contacto input[type="submit"]:hover {
+  background: #ffffff;
+  color: #11999e;
+}
+/*CURRICULO*/
+#curriculo {
+  padding-bottom: 60px;
+}
+#curriculo img {
+  display: block;
+  margin: 20px auto;
+}
+#curriculo h3 {
+  line-height: 134px;
+  text-align: center;
+  font-family: 'bebas_neuebold';
+  font-size: 30px;
+  font-size: 1.875em;
+}
+#curriculo h4 {
+  text-align: center;
+  font-family: 'bebas_neuebold';
+  font-size: 26px;
+  font-size: 1.625em;
+}
+#curriculo .acerca-de-mi i {
+  color: #12d4bc;
+  text-align: center;
+  display: block;
+  font-size: 85px;
+  font-size: 5.3125em;
+}
+#curriculo .acerca-de-mi i + p {
+  font-weight: bolder;
+  margin-bottom: 22px;
+  line-height: 2;
+  font-size: 18px;
+  font-size: 1.125em;
+  color: #5d5d5d;
+  text-align: center;
+}
+#curriculo a {
+  border: #11999e 3px solid;
+  color: #11999e;
+  display: table;
+  margin: 40px auto;
+  text-align: center;
+  padding: 10px 25px;
+  font-size: 18px;
+  font-size: 1.125em;
+  text-decoration: none;
+  letter-spacing: 4px;
+  box-shadow: 0px 0 #fff inset;
+  -webkit-transition: all 250ms ease-in;
+  transition: all 250ms ease-in;
+}
+#curriculo a:hover {
+  box-shadow: 600px 0 #11999e inset;
+  text-decoration: none;
+  color: #ffffff;
+}
+#curriculo a i {
+  display: inline-block;
+  font-size: 40px;
+  font-size: 2.5pxem;
+}
+#curriculo a p {
+  display: inline-block;
+  margin: 0;
+  vertical-align: super;
+}
+/*ENCARGOS PORTAFOLIO*/
+#encargos {
+  padding: 44px 0 80px 0;
+}
+#encargos article {
+  margin-bottom: 30px;
+  height: 400px;
+}
+#encargos article a {
+  display: block;
+  height: 350px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+}
+#encargos article a span {
+  color: #ffffff;
+  font-size: 90px;
+  font-size: 5.625em;
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  height: 350px;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  padding-top: 30%;
+  -webkit-transition: all 400ms ease-in-out;
+  transition: all 400ms ease-in-out;
+}
+#encargos article a:hover span {
+  opacity: 1;
+}
+#encargos article a + a {
+  height: 49px;
+  display: block;
+  border-bottom: 1px solid #000000;
+  font-family: 'bebas_neue_regularregular';
+  color: #000000;
+  text-align: center;
+}
+#encargos article a + a h3 {
+  font-size: 35px;
+  font-size: 2.1875em;
+  margin: 0 auto;
+  line-height: 49px;
+}
+#encargos article a + a:hover {
+  background-color: #12d4bc;
+  color: #40514e;
+  text-decoration: none;
+  border-bottom: 1px solid #12d4bc;
+}
+/*DESCRIPCION DEL ENCARGO*/
+#descripcion-encargo {
+  margin: 50px auto;
+}
+#descripcion-encargo h3 {
+  font-size: 27px;
+  font-size: 1.6875em;
+  font-family: 'source_code_proregular';
+  color: #40514e;
+}
+#descripcion-encargo h3 + a {
+  border: #11999e 3px solid;
+  color: #11999e;
+  display: table;
+  margin: 30px 0;
+  padding: 10px;
+  font-size: 18px;
+  font-size: 1.125em;
+  text-decoration: none;
+  letter-spacing: 4px;
+  box-shadow: 0px 0 #fff inset;
+  -webkit-transition: all 300ms ease-in;
+  transition: all 300ms ease-in;
+}
+#descripcion-encargo h3 + a:hover {
+  box-shadow: 500px 0 #11999e inset;
+  text-decoration: none;
+  color: #ffffff;
+}
+#descripcion-encargo h4 {
+  color: #12d4bc;
+  font-family: 'source_code_proregular';
+}
+#descripcion-encargo .img-trabajo {
+  max-height: 600px;
+  overflow: scroll;
+  text-align: center;
+  cursor: auto;
+}
+/*ERROR 404*/
+#error {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 120px;
+}
+#error h3 {
+  font-family: 'source_code_proregular';
+}
+#error a {
+  display: inline-block;
+  background-color: #12d4bc;
+  padding: 20px 15px;
+  margin: 30px 0;
+  font-size: 30px;
+  font-size: 1.875em;
+  color: #ffffff;
+  font-family: 'bebas_neue_regularregular';
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+#error a:hover {
+  background: #12d4bc;
+}
+/*modal proceso*/
+.proceso {
+  position: absolute;
+  top: 0;
+  left: 40%;
+  z-index: 99;
+  background-color: #ffffff;
+  padding: 50px;
+}
+.proceso p {
+  font-size: 40px;
+  font-size: 2.5em;
+}
+.proceso h2 {
+  margin: 30px auto;
+}
+.proceso li {
+  width: 100%;
+  text-align: center;
+  font-size: 20px;
+  font-size: 1.25em;
+}

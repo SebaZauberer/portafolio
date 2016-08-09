@@ -1,0 +1,166 @@
+.ancho-content {
+  max-width: 960px;
+}
+.bg-norepeat {
+  background-repeat: no-repeat;
+}
+.bg-cover {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.w-100 {
+  width: 100%;
+}
+.h-100 {
+  height: 100%;
+}
+.centrar {
+  margin: 0 auto;
+}
+.clear {
+  clear: both;
+}
+.border-box {
+  box-sizing: border-box;
+}
+@media only screen and (min-width: 1920px) {
+  #header-home {
+    background-position: center center;
+  }
+  #header-site {
+    -webkit-transform: scale(1) rotate(0deg) translateX(0px) translateY(-69px) skewX(0deg) skewY(-3deg);
+    -ms-transform: scale(1) rotate(0deg) translateX(0px) translateY(-69px) skewX(0deg) skewY(-3deg);
+    transform: scale(1) rotate(0deg) translateX(0px) translateY(-69px) skewX(0deg) skewY(-3deg);
+    padding-top: 121px;
+  }
+  #quien-soy {
+    -webkit-transform: scale(1) rotate(0deg) translateX(0px) translateY(56px) skewX(0deg) skewY(-3deg);
+    -ms-transform: scale(1) rotate(0deg) translateX(0px) translateY(56px) skewX(0deg) skewY(-3deg);
+    transform: scale(1) rotate(0deg) translateX(0px) translateY(56px) skewX(0deg) skewY(-3deg);
+  }
+  #main-footer {
+    -webkit-transform: scale(1) rotate(0deg) translateX(0px) translateY(72px) skewX(0deg) skewY(-3deg) !important;
+    -ms-transform: scale(1) rotate(0deg) translateX(0px) translateY(72px) skewX(0deg) skewY(-3deg) !important;
+    transform: scale(1) rotate(0deg) translateX(0px) translateY(72px) skewX(0deg) skewY(-3deg) !important;
+  }
+}
+@media only screen and (min-width: 770px) and (max-width: 1228px) {
+  #quien-soy .caja-soy-descripcion,
+  #quien-soy .caja-soy-foto,
+  #quien-soy .caja-soy-responsive {
+    height: 575px;
+  }
+  #quien-soy .caja-soy-descripcion p,
+  #quien-soy .caja-soy-foto p,
+  #quien-soy .caja-soy-responsive p {
+    margin: 50px auto;
+  }
+}
+@media only screen and (max-width: 769px) {
+  #header-home {
+    height: 516px;
+    background-position: top left;
+    background-size: 150%;
+  }
+  #header-home img {
+    display: block;
+    margin: 0 auto;
+  }
+  #header-site {
+    text-align: center;
+  }
+  #header-site > .container {
+    height: auto;
+  }
+  #header-site img {
+    width: 55%;
+  }
+  #header-site nav {
+    text-align: center;
+  }
+  #header-site nav ul {
+    padding: 0;
+  }
+  #header-site nav ul li {
+    margin: 20px 10px;
+  }
+  #quien-soy .caja-soy-descripcion p {
+    margin: 50px auto;
+  }
+  #main-footer {
+    height: 900px !important;
+  }
+  #main-footer .form-contacto {
+    margin: 0 auto;
+  }
+  #main-footer ul {
+    margin: 65px auto;
+    width: 70%;
+  }
+}
+@media only screen and (max-width: 480px) {
+  #header-home {
+    height: 450px;
+    background-position: top right -155px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 150px;
+  }
+  #slide-trabajos h2 {
+    margin-bottom: 40px;
+  }
+  .bx-wrapper .bx-controls-direction a {
+    top: 48%;
+    width: 42px;
+    height: 42px;
+  }
+  .bx-wrapper .bx-prev {
+    background: url(../img/controls2.jpg) no-repeat 0 -45px;
+    background-size: 310%;
+  }
+  .bx-wrapper .bx-prev:hover {
+    background-position: 0 0;
+  }
+  .bx-wrapper .bx-next {
+    background: url(../img/controls2.jpg) no-repeat -60px -45px;
+    background-size: 310%;
+  }
+  .bx-wrapper .bx-next:hover {
+    background-position: -60px 0;
+  }
+  #quien-soy .caja-soy-foto {
+    height: 245px;
+  }
+  #descripcion {
+    padding-bottom: 0px;
+  }
+  #descripcion-encargo h3 {
+    text-align: center;
+  }
+  #descripcion-encargo h3 + a {
+    margin: 30px auto;
+  }
+}
+@media only screen and (max-width: 375px) {
+  #header-home {
+    background-position: top 44px right -165px;
+    background-size: 257%;
+  }
+  #quien-soy .caja-soy-foto {
+    height: 195px;
+  }
+  #quien-soy .caja-soy-descripcion h2 {
+    font-size: 44px;
+    font-size: 2.75em;
+  }
+  #quien-soy .caja-soy-descripcion p {
+    margin: 26px auto;
+  }
+  #quien-soy .caja-soy-responsive h3 {
+    font-size: 44px;
+    font-size: 2.75em;
+  }
+  #main-footer ul {
+    width: 93%;
+  }
+}
